@@ -1,0 +1,75 @@
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    li {
+        margin: 10px 0;
+    }
+
+    .Tipos {
+        flex-direction: column;
+    }
+
+    #salgado, #bolos {
+        width: 100%;
+    }
+
+    .vaores-salgados, .doces {
+        align-items: flex-start;
+    }
+
+    img {
+        width: 50%;
+    }
+
+    hr {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+
+    h2 {
+        font-size: 18px;
+        line-height: 1.6;
+    }
+
+    p {
+        max-width: 100%;
+        line-height: 2.0;
+    }
+
+    #inscreva-se-buton {
+        padding: 8px;
+    }
+
+    img {
+        width: 70%;
+    }
+
+    .Tipos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    li {
+        margin: 5px 0;
+    }
+
+    #bolos {
+        flex-direction: column;
+        align-items:start
+    }
+}

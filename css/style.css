@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    background-color: rgb(244, 241, 248);
+    color: #0c0c0c;
+    font-family: "Poppins", sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;    
+    line-height: 1.6;
+}
+
+hr {
+    width: 70%;
+   
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title {
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li {
+    display: inline-block;
+    margin: 20px 8px;
+}
+
+a {
+    color: #0c0c0c;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+a:hover {
+    color: rgb(189, 187, 58);
+}
+
+#inscreva-se-buton {
+    border: 2px solid rgb(189, 187, 58);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#inscreva-se-buton:hover {
+    background-color: rgb(233, 230, 48);
+    color: #0c0c0c;
+
+}
+
+h1 {
+    font-weight: 200;
+    text-transform: uppercase;
+}
+
+.about-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 0;
+    
+}
+
+h2 {
+    font-size: 26px;
+    line-height: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+span {
+    color: rgb(83, 41, 41);
+}
+
+p {
+    line-height: 1.8;
+    max-width: 500px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+img {
+    width: 25%;
+    border-radius: 10px;    
+}
+
+.fotos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 0;    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+#produtos-titulo {
+    margin-left: 45%;
+    font-size: 25px;
+
+}
+
+.Tipos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.vaores-salgados {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#salgado p{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    line-height: 1.6;
+}
+
+#salgado h2{
+    margin-bottom: 30px;
+    margin-top: 40px
+}
+
+#bolos p{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    line-height: 1.6;
+}
+
+#bolos h2{
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+#contato {
+    margin-bottom: 40px;
+    margin-top: 100px;
+}
+
+#informacoes p{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    line-height: 15px;
+}
+
+#informacoes h2 {
+    margin-bottom: 40px;
+    margin-top: 100px;
+}
+
+#bolos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.doces {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#bolos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0;
+}
+
+#titulo-doce {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#informacoes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+
+}
+
+.atendimento {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+}
+
+#contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+    
+}
+
+#contato-button {
+    color: rgb(147, 107, 107);
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.card {
+    text-align: center;
+    margin: 50px;
+    background-color: rgb(235, 221, 221);
+    color: #202020;
+    width: 400px;
+    height: 800px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.card h1 {
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+.card p{
+    font-size: 17px;
+    padding: 10px 20px;
+}
+
+.btn {
+    font-size: 17px;
+    padding: 10px 50px;
+    border: none;
+    background-color: #202020;
+    color: #fff;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #4e4e4e;
+}
+
+.card img {
+    width: 100%;
+    height: 50%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
